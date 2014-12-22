@@ -12,8 +12,4 @@ COPY start.sh /start.sh
 
 RUN chmod +x /start.sh
 
-ENV HOST_HOSTNAME to_be_replace
-ENV LOGSTASH_IP 127.0.0.1
-
 CMD /start.sh
-
